@@ -1,0 +1,120 @@
+=== Evaluating MedDialog Agent ===
+[{'query': 'Hi doctor,My girlfriend had morning after pill and got her period a few days later. Then we had sex after 15 days of her periods and I did not ejaculate inside her but still no period. Would she be pregnant?', 'retrieval': {'recall@k': 0.0}, 'hallucination_rate': 0.0, 'answer': "The likelihood of your girlfriend being pregnant is low since you did not ejaculate inside her and she took the morning-after pill. However, emergency contraceptive pills can cause hormonal changes that may delay her period. It's not uncommon for periods to be irregular after taking such a pill. I recommend waiting a few more days, and if her period still hasn't started or if there are any concerns, she should take a pregnancy test or consult a healthcare professional for further evaluation.\n\nThis information is for educational purposes only and not a substitute for professional medical advice."}, {'query': 'Hello doctor,I took an I-pill after 48 hours of intercourse. Now I am experiencing brown spotting a week before my periods. Is it a sign of pregnancy?', 'retrieval': {'relevance': 1}, 'hallucination_rate': 0.0, 'answer': "The brown spotting you are experiencing after taking the I-pill is likely a side effect of the medication, which can cause hormonal changes and lead to spotting. This is not necessarily a sign of pregnancy, especially since you took the pill within the recommended time frame. Spotting can occur up to 14 days after taking the I-pill. However, if you have concerns about the possibility of pregnancy, it's advisable to take a pregnancy test or consult a healthcare professional for further evaluation.\n\nThis information is for educational purposes only and not a substitute for professional medical advice."}]
+
+=== Evaluating URL Agent ===
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+[{'query': 'Hi doctor,My girlfriend had morning after pill and got her period a few days later. Then we had sex after 15 days of her periods and I did not ejaculate inside her but still no period. Would she be pregnant?', 'retrieval': {'relevance': 1}, 'hallucination_rate': 0.0, 'answer': 'The morning-after pill is designed to prevent pregnancy after unprotected sex, and it can cause changes in the menstrual cycle, including earlier or later periods. If your girlfriend had her period a few days after taking the pill, it suggests that the medication was effective. Having sex 15 days after her period without ejaculation reduces the likelihood of pregnancy, but it is still possible, albeit low. If her period is significantly delayed, it may be a good idea for her to take a pregnancy test for confirmation.\n\nThis information is for educational purposes only and not a substitute for professional medical advice. \n\nSources:\n- https://www.drugs.com/condition/postcoital-contraception.html\n- https://www.drugs.com/mtm/morning-after.html'}, {'query': 'Hello doctor,I took an I-pill after 48 hours of intercourse. Now I am experiencing brown spotting a week before my periods. Is it a sign of pregnancy?', 'retrieval': {'relevance': 1}, 'hallucination_rate': 0.0, 'answer': 'Taking an I-pill (emergency contraception) can lead to side effects, including changes in your menstrual cycle, such as brown spotting. This spotting can occur due to hormonal fluctuations caused by the pill and does not necessarily indicate pregnancy, especially since you took the pill within 48 hours after intercourse. However, if your period is significantly late or if you have concerns about pregnancy, it may be wise to take a pregnancy test or consult a healthcare professional.\n\nThis information is for educational purposes only and not a substitute for professional medical advice. \n\nSources: [Drugs.com - Postcoital Contraception](https://www.drugs.com/condition/postcoital-contraception.html), [Drugs.com - Morning-After Pill](https://www.drugs.com/mtm/morning-after.html)'}]
+
+=== Evaluating Hybrid Agent ===
+Add of existing embedding ID: 0
+Add of existing embedding ID: 1
+Add of existing embedding ID: 2
+Add of existing embedding ID: 3
+Add of existing embedding ID: 4
+Add of existing embedding ID: 5
+Add of existing embedding ID: 6
+Add of existing embedding ID: 7
+Add of existing embedding ID: 8
+Add of existing embedding ID: 9
+Add of existing embedding ID: 10
+Add of existing embedding ID: 11
+Add of existing embedding ID: 12
+Add of existing embedding ID: 13
+Add of existing embedding ID: 14
+Add of existing embedding ID: 15
+Add of existing embedding ID: 16
+Add of existing embedding ID: 17
+Add of existing embedding ID: 18
+Add of existing embedding ID: 19
+Add of existing embedding ID: 20
+Add of existing embedding ID: 21
+Add of existing embedding ID: 22
+Add of existing embedding ID: 23
+Add of existing embedding ID: 24
+Add of existing embedding ID: 25
+Add of existing embedding ID: 26
+Add of existing embedding ID: 27
+Add of existing embedding ID: 28
+Add of existing embedding ID: 29
+Add of existing embedding ID: 30
+Add of existing embedding ID: 31
+Add of existing embedding ID: 32
+Add of existing embedding ID: 33
+Add of existing embedding ID: 34
+Add of existing embedding ID: 35
+Add of existing embedding ID: 36
+Add of existing embedding ID: 37
+Add of existing embedding ID: 38
+Add of existing embedding ID: 39
+Add of existing embedding ID: 40
+Add of existing embedding ID: 41
+Add of existing embedding ID: 42
+Add of existing embedding ID: 43
+Add of existing embedding ID: 44
+Add of existing embedding ID: 45
+Add of existing embedding ID: 46
+Add of existing embedding ID: 47
+Add of existing embedding ID: 48
+Add of existing embedding ID: 49
+Add of existing embedding ID: 50
+Add of existing embedding ID: 51
+Add of existing embedding ID: 52
+Add of existing embedding ID: 53
+Add of existing embedding ID: 54
+Add of existing embedding ID: 55
+Add of existing embedding ID: 56
+Add of existing embedding ID: 57
+Add of existing embedding ID: 58
+Add of existing embedding ID: 59
+Add of existing embedding ID: 60
+Add of existing embedding ID: 61
+Add of existing embedding ID: 62
+Add of existing embedding ID: 63
+Add of existing embedding ID: 64
+Add of existing embedding ID: 65
+Add of existing embedding ID: 66
+Add of existing embedding ID: 67
+Add of existing embedding ID: 68
+Add of existing embedding ID: 69
+Add of existing embedding ID: 70
+Add of existing embedding ID: 71
+Add of existing embedding ID: 72
+Add of existing embedding ID: 73
+Add of existing embedding ID: 74
+Add of existing embedding ID: 75
+Add of existing embedding ID: 76
+Add of existing embedding ID: 77
+Add of existing embedding ID: 78
+Add of existing embedding ID: 79
+Add of existing embedding ID: 80
+Add of existing embedding ID: 81
+Add of existing embedding ID: 82
+Add of existing embedding ID: 83
+Add of existing embedding ID: 84
+Add of existing embedding ID: 85
+Add of existing embedding ID: 86
+Add of existing embedding ID: 87
+Add of existing embedding ID: 88
+Add of existing embedding ID: 89
+Add of existing embedding ID: 90
+Add of existing embedding ID: 91
+Add of existing embedding ID: 92
+Add of existing embedding ID: 93
+Add of existing embedding ID: 94
+Add of existing embedding ID: 95
+Add of existing embedding ID: 96
+Add of existing embedding ID: 97
+Add of existing embedding ID: 98
+Add of existing embedding ID: 99
+Add of existing embedding ID: 100
+[{'query': 'Hi doctor,My girlfriend had morning after pill and got her period a few days later. Then we had sex after 15 days of her periods and I did not ejaculate inside her but still no period. Would she be pregnant?', 'retrieval': {'relevance': 1}, 'hallucination_rate': 0.0, 'answer': 'There is still a possibility of pregnancy even if you did not ejaculate inside your girlfriend, as pre-ejaculate fluid can contain sperm. The morning-after pill can also disrupt her menstrual cycle, which may cause delays in her period. It would be advisable for her to take a pregnancy test to confirm whether she is pregnant. If she has concerns or if the test is positive, she should consult a healthcare provider for further guidance. \n\nThis information is for educational purposes only and not a substitute for professional medical advice.'}, {'query': 'Hello doctor,I took an I-pill after 48 hours of intercourse. Now I am experiencing brown spotting a week before my periods. Is it a sign of pregnancy?', 'retrieval': {'relevance': 1}, 'hallucination_rate': 0.0, 'answer': 'Brown spotting a week before your expected period after taking an I-pill can occur due to hormonal changes caused by the emergency contraceptive. While it could potentially indicate pregnancy, the effectiveness of the I-pill decreases significantly if taken more than 48 hours after intercourse, which may increase the chance of pregnancy. To confirm whether you are pregnant, it is advisable to take a home pregnancy test or consult a healthcare professional for further evaluation.\n\nThis information is for educational purposes only and not a substitute for professional medical advice.'}]
+
+=== Evaluating Scraping Agent ===
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+Number of requested results 3 is greater than number of elements in index 2, updating n_results = 2
+[{'query': 'Hi doctor,My girlfriend had morning after pill and got her period a few days later. Then we had sex after 15 days of her periods and I did not ejaculate inside her but still no period. Would she be pregnant?', 'retrieval': {'relevance': 0}, 'hallucination_rate': 0.0, 'answer': 'The morning-after pill is designed to prevent pregnancy after unprotected intercourse, and it can cause changes in menstrual cycles, including earlier or later periods. If your girlfriend had her period a few days after taking the pill, it is a good sign that the pill worked. Having sex 15 days after her period, especially if you did not ejaculate inside her, significantly reduces the likelihood of pregnancy. However, if her period is late, it may be a good idea for her to take a pregnancy test for confirmation.\n\nThis information is for educational purposes only and not a substitute for professional medical advice.'}, {'query': 'Hello doctor,I took an I-pill after 48 hours of intercourse. Now I am experiencing brown spotting a week before my periods. Is it a sign of pregnancy?', 'retrieval': {'relevance': 1}, 'hallucination_rate': 0.0, 'answer': 'Taking an emergency contraceptive like the I-pill can lead to side effects, including brown spotting, which may occur due to hormonal changes. This spotting is not uncommon and does not necessarily indicate pregnancy, especially since you took the pill within the recommended time frame. However, if your period is significantly delayed or if you have other concerns, it may be wise to take a pregnancy test or consult a healthcare professional for further guidance.\n\nThis information is for educational purposes only and not a substitute for professional medical advice.'}]
